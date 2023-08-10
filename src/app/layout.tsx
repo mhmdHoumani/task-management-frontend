@@ -21,7 +21,7 @@ export default function RootLayout({
         className={`${alexandria.className} bg-slate-800 text-slate-100 container mx-auto p-4`}
       >
         <Header />
-        {children}
+        <div className="mx-20 my-10">{children}</div>
       </body>
     </html>
   );
